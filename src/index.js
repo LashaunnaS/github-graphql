@@ -29,7 +29,7 @@ class App extends Component {
   componentDidMount() {
     this.onFetchFromGitHub()
   }
-
+// page 52
   onChange = event => {
     this.setState({ path: event.target.value })
   }
